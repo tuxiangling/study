@@ -501,8 +501,9 @@ import java.util.Scanner;
         public class Main{
             public static int factor(int i) {
 
-                if (i == 1)
+                if (i == 1) {
                     return i;
+                }
                 return i * factor(i - 1);
 
             }
